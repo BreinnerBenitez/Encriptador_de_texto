@@ -3,7 +3,7 @@
 
 ### Introducción al Uso del Sitio Web de Encriptación y Desencriptación de Información
 
-Bienvenido a nuestro sitio web, una herramienta confiable y sencilla para encriptar y desencriptar información. Este servicio está diseñado para proteger tus datos y garantizar que solo las personas autorizadas puedan acceder a ellos. A continuación, te explicamos cómo utilizar nuestra plataforma para encriptar y desencriptar texto.
+Bienvenido a nuestro sitio web que fue posible gracias a alura Latam; una herramienta confiable y sencilla para encriptar y desencriptar información. Este servicio está diseñado para proteger tus datos y garantizar que solo las personas autorizadas puedan acceder a ellos. A continuación, te explicamos cómo utilizar nuestra plataforma para encriptar y desencriptar texto.
 
 ### Condiciones de Uso
 
