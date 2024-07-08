@@ -1,4 +1,4 @@
-##    (Encriptador de texto-alura Latam),  INGRESA AL LINK DE LA PARTE DE ABAJO PARA OBSERVAR el ENCRIPTADOR
+##    (Encriptador de texto-alura Latam),  INGRESA AL LINK DE LA PARTE DE ABAJO PARA OBSERVAR EL ENCRIPTADOR
 ### informacion de uso de aplicacion:
 
 ### Introducción al Uso del Sitio Web de Encriptación y Desencriptación de Información
