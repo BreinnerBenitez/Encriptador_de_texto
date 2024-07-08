@@ -30,9 +30,10 @@ Antes de comenzar, ten en cuenta las siguientes condiciones para encriptar el te
 - **Texto Encriptado:** gaitober
 - **Texto Desencriptado:** gato
 
+___
 
 [ CLICK AQUI PARA VISUALIZAR ](https://portafolio-breinner.vercel.app/index.html)
 
 ___
 
-![imagen](assets/imagen1.JPG)
+![imagen](imagenes/imagenprevia.JPG)
