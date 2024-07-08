@@ -1,0 +1,212 @@
+:root{
+
+    --colorestandar: #0A3871;
+
+}
+body {
+    background-color: rgb(240, 240, 240);
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex; /* Usar Flexbox para el layout principal */
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.header {
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+    text-align: center;
+    padding: 20px ; 
+    color: #ffffff; 
+    display: flex;
+    justify-content: center;
+
+}
+
+.header__letra {
+    border: 1px solid var(--colorestandar); 
+    background-color: var(--colorestandar); 
+    padding: 10px; 
+    border-radius: 30px 50px 50px 100px; 
+    color: #ffffff; 
+}
+
+
+
+.main {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+    width: 100%; 
+    max-width: 1100px; 
+}
+
+.main__articulo {
+    display: flex; /* Usar Flexbox para el layout principal */
+    flex-direction: row ; 
+    align-items: center; 
+    width: 100%; 
+   
+}
+
+.seccion1, .seccion2, .seccion3 {
+    display: flex; /* Usar Flexbox para el layout principal */
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%; 
+    margin-bottom: 20px; 
+    
+    
+}
+
+.seccion2 {
+    display: none; /* Ocultar la sección por defecto */
+    margin-left: 35px;
+    padding-bottom: 25px;
+    margin-top: 26px;
+    
+}
+.seccion1__divbotones{
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ 
+
+}
+.seccion2_divboton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    
+}
+ 
+.textoarea1, .textoarea2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+    max-width: 670px;
+    height: 270px;
+    background: -webkit-linear-gradient(bottom, #0A3871, #FFFFFF);
+    background: -moz-linear-gradient(bottom, #0A3871, #FFFFFF);
+    box-shadow: var(--colorestandar) 5px 5px 30px;
+    border-radius: 30px 30px 50px 50px;
+    color: #000000;
+    padding: 10px; /* Añadir padding interno */
+    margin-bottom: 10px; 
+}
+
+.boton {
+    width: 250px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 10px;
+    color: #f3f3f7;
+    background-color: var(--colorestandar);
+    margin: 10px; /* Espaciado inferior */
+}
+
+.boton:hover {
+    background: #9b9e9e;
+    border-right: 1px solid #14556B;
+    border-bottom: 1px solid #14556B;
+    color: #fdfdfd;
+    cursor: pointer;
+}
+
+.aside {
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+    max-width: 180px; 
+    padding: 14px; 
+    background-color: var(--colorestandar); 
+    color: #ffffff; 
+    border-radius: 30px 50px 50px 100px; 
+    box-shadow: var(--colorestandar) 5px 5px 30px;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.footer {
+    width: 90%; 
+    padding: 20px; 
+    margin-bottom: 10px;
+    text-align: center; 
+    box-shadow: var(--colorestandar) 5px 5px 30px;
+    color: #030303; 
+    border-radius: 15px;
+    background: -webkit-linear-gradient(bottom, #0A3871, #FFFFFF);
+    background: -moz-linear-gradient(bottom, #0A3871, #FFFFFF);
+}
+
+/* Media Queries */
+@media (max-width: 900px) {
+    .textoarea1, .textoarea2 {
+        height: 200px; 
+    }
+
+    .boton {
+        width: 100%; 
+    }
+
+    .aside {
+        max-width: 100%; 
+    }
+
+    .main__articulo{
+
+        flex-direction: column;
+        
+    }
+    .seccion2 {
+
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__letra {
+        font-size: 18px; 
+        padding: 5px; 
+    }
+
+    .textoarea1, .textoarea2 {
+        font-size: 20px; 
+        height: 150px; 
+    }
+
+    .seccion3 p strong {
+        font-size: 18px; 
+    }
+
+    .seccion3 p {
+        font-size: 14px; 
+    }
+
+    .aside p strong {
+        font-size: 12px; 
+    }
+
+    .footer {
+        padding-left: 20px; 
+        font-size: 14px; 
+    }
+    .main__articulo{
+
+        flex-direction: column;
+        
+    }
+    .seccion2 {
+
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}

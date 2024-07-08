@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="icon" href="imagenes/letra.ico">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+<body>
+    <header class="header">
+      
+        <h1><strong class="header__letra">ENCRIPTADOR</strong> </h1>
+        <nav> <a href="https://www.aluracursos.com/" target="_blank"><img src="imagenes/letra.png" alt="alura" ></a>
+            <nav> <!-- imagen  -->
+       
+    </header>
+
+    <main class="main">
+        <h2> <strong class="header__letra"> comienza tu encriptación</strong></h2>
+        <article class="main__articulo">
+            <!-- practicando  el html5  -->
+            
+
+
+            <section class="seccion1">
+                <!-- seccion  -->
+                <!-- onclick="borrarTextoAreatexto2()"  este evento elimina el area dos al hacer click si lo pongo en el area de texto-->
+                <textarea autofocus class="textoarea1" name="encriptacion" id="" cols="30" rows="10"
+                    placeholder="ingresa el texto aqui"></textarea>
+                    <div class="seccion1__divbotones">
+                <input class="boton" onclick="encriptar()" type="button" value="Encriptar">
+                <input class="boton" onclick="desencriptar()" type="button" value="Desencriptar">
+                    </div>
+
+            </section>
+
+            <section class="seccion2" id="seccion2">
+
+                <textarea class="textoarea2" cols="30" rows="10" placeholder="texto encriptado" disabled></textarea>
+               <divs class="seccion2_divboton">
+                <input class="boton" onclick="botonCopiar()" type="button" value="Copiar">
+                 </div>
+
+            </section>
+
+            <section class="seccion3" id="seccion3">
+                <img src="imagenes/Muneco.png" alt="muneco">
+                <p><strong>ningun mensaje fue encontrado</strong></p>
+                <p>ingresa el texto que deseas Encriptar o Desencriptar</p>
+
+            </section>
+
+
+        </article>
+
+
+    </main>
+
+    <aside class="aside">
+
+        <!-- navegacion sobre el main, aqui puse el aviso -->
+        <p><strong>no se aceptarán
+                mayúsculas ni caracteres especiales</strong></p>
+    </aside>
+
+    <footer class="footer">
+        <h3>Breinner Benitez 2024 </h3>
+        
+
+    </footer>
+
+
+
+</body>
+
+<script src="intereacion.js" type="text/javascript">  </script>
+
+</html>
