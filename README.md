@@ -41,5 +41,5 @@ ___
 ___
 
 ### insignia
-![imagen](imagenes/Prancheta 3.png)
+![imagen](imagenes/Prancheta3.png)
 
