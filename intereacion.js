@@ -3,7 +3,7 @@ var texto = "";
 var textoEncriptado = "";
 var textoDesencriptado = "";
 const expresionRegularMayusculas = /[A-Z]/;
-const expresionRegularEspeciales = /[^A-Za-z0-9\s]/;
+const expresionRegularEspeciales = /[^ñA-Za-z0-9\s]/;
 
 function encriptar() {
 
