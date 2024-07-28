@@ -147,6 +147,14 @@ body {
     background: -moz-linear-gradient(bottom, #0A3871, #FFFFFF);
 }
 
+.swal2-popup {
+    border: 2px solid #0A3871;
+    border-radius: 30px 50px 50px 100px; 
+    background: -webkit-linear-gradient(top, #0A3871, #FFFFFF);
+    background: -moz-linear-gradient(top, #0A3871, #FFFFFF);
+    color: white;
+}
+
 /* Media Queries */
 @media (max-width: 900px) {
     .textoarea1, .textoarea2 {

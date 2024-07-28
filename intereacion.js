@@ -81,11 +81,30 @@ function botonCopiar() {
     try{ 
     let copiarTexto = document.querySelector(".textoarea2").value;
     navigator.clipboard.writeText(copiarTexto);
-    alert(" texto copiado");
+    Swal.fire({
+        title:"¡copiando!",
+        text:"Texto copiado.",
+        confirmButtoncolor:"#0A3871",
+        
+        customclass:{
+            popup:'animate__animated animate__tada swal2-popup'
+        }
+
+    });
     // console(copiarTexto);
    }catch(err){
     console.error("error al copiar",err);
-    alert("problema al copiar, posiblemente con tu navegador")
+    //alert("problema al copiar, posiblemente con tu navegador")
+    Swal.fire({
+        title:"¡error!",
+        text:"problema al copiar, posiblemente con tu navegador",
+        confirmButtoncolor:"#0A3871",
+        
+        customclass:{
+            popup:'animate__animated animate__tada swal2-popup'
+        }
+
+    });
 
    }
 }
